@@ -1,6 +1,6 @@
 ---
-title: "Automated Syringe Pump"
-excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
+title: "Syringe Pump"
+excerpt: "Automated Syringe Pump with Variable Flow Control via Programming and Physical Mechanisms."
 header:
   image: /assets/img/LF3DP-Banner-2.jpg
   teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
