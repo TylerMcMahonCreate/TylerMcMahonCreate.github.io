@@ -2,7 +2,7 @@
 title: "Syringe Pump"
 excerpt: "Automated Syringe Pump with Variable Flow Control via Programming and Physical Mechanisms."
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
+  image: /assets/img/SyringePumpRender.png
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
   - image_path: assets/img/Slide-3.png
