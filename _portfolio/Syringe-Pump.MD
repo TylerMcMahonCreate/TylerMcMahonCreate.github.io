@@ -24,7 +24,7 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 
 # Off-the-shelf Parts
 
-| Parts                                                                 | Quantity |
+| Off-the-shelf Parts                                                   | Quantity |
 |-----------------------------------------------------------------------|----------|
 | 250 mm lead screw with 2 mm pitch and 2 mm lead	                      | 1        |
 | 1/4” x 8mm Flexible Coupling	                                        | 1        |
@@ -42,6 +42,19 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 | Limit Switch                                                         	| 1        |
 | RGB Common Cathode LED	                                              | 1        |
 | Potentiometer	                                                        | 1        |
+
+# 3D Printed Parts
+
+| 3D Printed Parts       | Quantity |
+|------------------------|----------|
+| Carriage	             | 1        |
+| Enclosure Top & Bottom | 1        |
+| End Support            | 2        |
+| Motor Mounting Plate   | 1        |
+
+# Arduino Code
+
+The Arduino Code used to program the Syringe Pump - [here](
 
 # CAD Model
 <iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
