@@ -5,8 +5,6 @@ header:
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
   - image_path: assets/img/SyringePumpRender.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
    
 ---
 
