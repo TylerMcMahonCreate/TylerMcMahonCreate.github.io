@@ -15,7 +15,7 @@ title                    : "Tyler McMahon"
 title_separator          : "-"
 subtitle                 : "Mechanical Engineering & Digital Fabrication"
 name                     : &name "Tyler McMahon" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+description              : &description "Tyler McMahon's Website"
 url                      : https://tylermcmahoncreate.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -97,16 +97,16 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for teaching "
-  location         : "Nashville, TN"
+  avatar           : "assets/img/Professional-Headshot.jpg"
+  bio              : "MechE & DF at Vanderbilt University"
+  location         : "Atlanta, GA"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: "https://tylermcmahoncreate.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tylermcmahon/"
 
 
 # Site Footer
@@ -114,10 +114,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
+      url: "https://tylermcmahoncreate.github.io/"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tylermcmahon/"
 
 
 # Reading Files
