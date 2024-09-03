@@ -13,7 +13,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Tyler McMahon"
 title_separator          : "-"
-subtitle                 : "Mechanical Engineering & Digital Fabrication"
+subtitle                 : "Engineering Portfolio"
 name                     : &name "Tyler McMahon" # &name is a YAML anchor which can be *referenced later
 description              : &description "Tyler McMahon's Website"
 url                      : https://tylermcmahoncreate.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/Professional-Headshot.jpg"
-  bio              : "MechE & DF at Vanderbilt University"
+  bio              : "MechE & DF @ Vanderbilt University"
   location         : "Atlanta, GA"
   links:
     - label: "GitHub"
