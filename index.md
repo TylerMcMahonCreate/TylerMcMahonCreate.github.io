@@ -1,5 +1,5 @@
 ---
-title: "Tyler McMahon"
+title: "Home"
 layout: splash
 header:
   overlay_color: "#000"
