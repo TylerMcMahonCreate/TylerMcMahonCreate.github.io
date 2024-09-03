@@ -8,10 +8,6 @@ gallery:
    
 ---
 
-
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
 # Purpose
 
 A syringe pump is a specialized precision device designed to deliver fluids in a controlled manner. Some controllable factors include dispensing an exact specified volume of liquid or dispensing liquid at a set flow rate. These pumps are widely used in medical and laboratory settings due to this ability to administer exact volumes of liquid at specific rates. This is crucial in applications such as drug delivery and chemical reactions.
@@ -22,6 +18,9 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 * Forward/Backward Jog Buttons: The jog buttons rotate the stepper motor and move the syringe when they are held. Enables a kind of manual mode, in addition to having more control over the motion of the pump as well. 
 * The Potentiometer: Adjusts the flow rate. Enables the quick changing of the speed of the pump without having to edit the arduino code.
 * LED: Programmed to be green when the pump is moving, yellow when paused, and red when it is out of fluid.
+
+# CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Off-the-shelf Parts
 
