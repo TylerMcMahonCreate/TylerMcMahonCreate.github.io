@@ -56,4 +56,4 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 
 The Arduino Code used to program the Syringe Pump - [here](https://github.com/TylerMcMahonCreate/TylerMcMahonCreate.github.io/blob/main/assets/syringe-code)
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="CAD Model Render" %}
