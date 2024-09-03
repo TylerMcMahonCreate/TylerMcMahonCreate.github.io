@@ -2,14 +2,17 @@
 title: "Syringe Pump"
 excerpt: "Automated Syringe Pump with Variable Flow Control via Programming and Physical Mechanisms."
 header:
-  image: /assets/img/SyringePumpRender.png
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
-  - image_path: assets/img/Slide-3.png
+  - image_path: assets/img/SyringePumpRender.png
   - image_path: assets/img/Slide-2.png
   - image_path: assets/img/Slide-4.png
    
 ---
+
+
+# CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Purpose
 
@@ -55,8 +58,5 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 # Arduino Code
 
 The Arduino Code used to program the Syringe Pump - [here](/assets/syringe-code)
-
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Large Format 3D Printer Gallery" %}
