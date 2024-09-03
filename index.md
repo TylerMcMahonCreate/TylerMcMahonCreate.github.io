@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience is in instituional HVAC systems, with a focus on mechanical design "
 feature_row:
-  - image_path: assets/img/SyringePumpCoverPhoto.jpg
+  - image_path: assets/img/SyringePumpCoverPhoto.png
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Automated Syringe Pump with Variable Flow Control via Programming and Physical Mechanisms."
