@@ -4,7 +4,7 @@ title: "About Tyler McMahon"
 
 ---
 
-Tyler is currently a 4th year student at Vanderbilt University seeking a job in the product design industry. He specializes in rapid prototyping and mechanical design.
+Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience is in instituional HVAC systems, with a focus on mechanical design. He is seeking a job in product design, full-building MEP, or defense.
 
 ## Education
 
@@ -17,7 +17,13 @@ Tyler has opted to diversify his educational experience through the addition of 
 ## Work Experience
 
 #### RMF Engineering
-* Mechanical Design Intern (Summers 2023,2024)
+* Mechanical Intern - Buildings Team (May 2024 - August 2024)
+  * Calculated airflow (~400 CFM/ton) and modeled ductwork, VAVs, & diffusers to optimize HVAC system performance
+  * Analyzed 300+ Emory building drawings to classify centralized, decentralized, & district systems, streamlining fieldwork
+  * Created VAV zoning maps of BOS Airport by examining duct systems and marking up as-builts with Bluebeam REVU 
+  * Refined public speaking skills through Toastmasters, improving my communication and leadership in professional settings
+   
+* Mechanical Intern - Mechanical Team (May 2023 - August 2023)
   * Modeled mechanical equipment, piping, and pipe accessories for heating and cooling plants via 3D cloud models on Revit
   * Formulated 75+ Revit sheets with isometric, floor plan, and section views into comprehensive construction documents 
   * Produced as-built drawings for Duke University’s YOH facility by updating Newforma RFIs and contractor submittals
