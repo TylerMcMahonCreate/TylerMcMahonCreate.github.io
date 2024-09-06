@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience is in instituional HVAC systems, with a focus on mechanical design "
+excerpt: "Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience is centered in institutional HVAC systems, with a focus on mechanical design "
 feature_row:
   - image_path: assets/img/SyringePumpCoverPhoto.png
     alt: "Syringe Pump"
