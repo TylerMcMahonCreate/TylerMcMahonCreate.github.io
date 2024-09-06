@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "Automated Syringe Pump with Variable Flow Control via Programming and Physical Mechanisms."
+excerpt: "Automated Syringe Pump with Variable Flow Control"
 header:
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
@@ -15,8 +15,8 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 # Features
 
 * On/Pause Switch: Pushing this button stops the progress of the syringe pump. Allows for immediate user control.
-* Forward/Backward Jog Buttons: The jog buttons rotate the stepper motor and move the syringe when they are held. Enables a kind of manual mode, in addition to having more control over the motion of the pump as well. 
-* The Potentiometer: Adjusts the flow rate. Enables the quick changing of the speed of the pump without having to edit the arduino code.
+* Forward/Backward Jog Buttons: The jog buttons rotate the stepper motor and move the syringe back anf forth. Enables a manual mode, allowing more control over the motion of the pump. 
+* The Potentiometer: Adjusts the flow rate. Enables quick changing of the pump's speed without having to edit the Arduino code.
 * LED: Programmed to be green when the pump is moving, yellow when paused, and red when it is out of fluid.
 
 # CAD Model
