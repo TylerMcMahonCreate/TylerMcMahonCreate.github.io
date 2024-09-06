@@ -13,7 +13,7 @@ feature_row:
   - image_path: assets/img/SyringePumpCoverPhoto.png
     alt: "Syringe Pump"
     title: "Syringe Pump"
-    excerpt: "Automated Syringe Pump with Variable Flow Control via Programming and Physical Mechanisms."
+    excerpt: "Automated Syringe Pump with Variable Flow Control."
 ---
 
 {% include feature_row %}
