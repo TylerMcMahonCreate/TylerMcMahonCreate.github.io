@@ -1,6 +1,6 @@
 ----
 title: "uFluidic Device"
-excerpt: "Microfluidic Device for Homogeneous Mixing and Particle Sorting"
+excerpt: "Pinched Flow Fraction - Particle Separator"
 header:
   teaser: /assets/img/deviceandmold.jpg
 gallery:
