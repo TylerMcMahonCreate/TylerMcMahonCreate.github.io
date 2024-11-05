@@ -40,24 +40,22 @@ This equation shows how particle size influences lateral positioning, with large
 
 # Flow Rates and Reynolds Number Selection
 
-To achieve laminar flow and stable particle separation, flow rates were calculated based on Reynolds numbers of 10, 25, 50, and 100. Here’s a summary of the flow rates for a channel height of 2.0 mm:
+To achieve laminar flow and stable particle separation, flow rates were calculated based on the volume of the device and a ~20 second duration for a particle to flow from beginning to end.
 
-| **Reynolds Number** | **Total Flow Rate (µL/s)** | **Buffer Flow Rate (µL/s)** | **Sample Flow Rate (µL/s)** |
-|---------------------|----------------------------|-----------------------------|-----------------------------|
-| Re = 10             | 20                         | 13.33                       | 6.67                        |
-| Re = 25             | 50                         | 33.33                       | 16.67                       |
-| Re = 50             | 100                        | 66.67                       | 33.33                       |
-| Re = 100            | 200                        | 133.33                      | 66.67                       |
+| **Total Flow Rate (µL/s)** | **Buffer Flow Rate (µL/s)** | **Sample Flow Rate (µL/s)** |
+|----------------------------|-----------------------------|-----------------------------|
+| 5.7                         | 4.9                        | 0.8                         |
 
-Maintaining a 2:1 buffer-to-sample flow ratio is essential for stable particle focusing within the pinched region, allowing precise, size-based separation.
+
+Maintaining a 6:1 buffer-to-sample flow ratio is essential for stable particle focusing within the pinched region, allowing precise, size-based separation.
 
 # Assembly Instructions
 
-To create the final device from the 3D-printed mold, follow these steps (adapted from Lab on a Chip protocols):
+To create the final device from the 3D-printed mold, follow these steps:
 
 1. **Print and Cure Mold**:
-   - Design the mold to meet the microfluidic device specifications and print it using an SLA or DLP printer, like the Form 3+/4 in the Digital Fabrication Lab.
-   - Wash the mold in isopropyl alcohol (IPA) for 10 minutes to remove uncured resin, air-dry for 30 minutes, and then perform a brief 60-second surface cure.
+   - Design the mold to meet the microfluidic device specifications and print it using an SLA or DLP printer, like the Form 3+/4.
+   - Wash the mold in isopropyl alcohol (IPA) for 10 minutes to remove uncured resin, air-dry tilted and upside down for 30 minutes, and then perform a brief 60-second surface cure.
 
 2. **Parylene Coating**:
    - Apply a parylene coating to prevent PDMS curing inhibition and ensure easy release of PDMS from the mold.
