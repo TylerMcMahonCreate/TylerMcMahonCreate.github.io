@@ -1,6 +1,6 @@
 ---
 title: "uFluidic Device"
-excerpt: "Pinched Flow Fraction - Particle Separator"
+excerpt: "Pinched Flow Fractionation - Particle Separator"
 header:
   teaser: /assets/img/deviceandmold.jpg
 gallery:
