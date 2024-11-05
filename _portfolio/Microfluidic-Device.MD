@@ -5,6 +5,7 @@ header:
   teaser: /assets/img/deviceandmold.jpg
 gallery:
   - image_path: assets/img/deviceandmold.jpg
+math: true
 ---
 
 # Introduction
