@@ -75,7 +75,7 @@ To create the final device from the 3D-printed mold, follow these steps (adapted
 
 # Mold and Casted Device
 
-(assets/img/deviceandmold.jpg)
+!(assets/img/deviceandmold.jpg)
 
 ---
 
