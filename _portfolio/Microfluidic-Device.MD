@@ -26,9 +26,9 @@ This project utilizes **Pinched Flow Fractionation (PFF)** to separate particles
 - **Outlet Region**: Outlets are matched to the inlet diameter (1.65 mm) and include a gentle funnel shape with angles between 5° and 10°, which helps maintain smooth flow without re-mixing the separated particles.
 
 The separation mechanism in the pinched flow region follows this equation:
-\[
-Y = (w_p - D/2) * (w_0 / w_p)
-\]
+$$
+Y = \left(w_p - \frac{D}{2}\right) \cdot \frac{w_0}{w_p}
+$$
 Where:
    - \( Y \): lateral position for each particle,
    - \( w_p \): width of the pinched region (1.1 mm),
