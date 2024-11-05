@@ -18,13 +18,13 @@ However, achieving effective particle separation within such a small device pres
 
 This project utilizes **Pinched Flow Fractionation (PFF)** to separate particles based on size by leveraging laminar flow and specific channel geometries. The device comprises distinct regions designed to guide particle behavior and enable effective separation:
 
-- **Inlet Region**: With a diameter of 1.65 mm and a height of 2.0 mm, the inlet introduces the buffer and sample streams. A 2:1 buffer-to-sample flow rate ratio is maintained to ensure stable, laminar flow, essential for precise particle separation. The aspect ratio of 1.21:1 supports both structural integrity and controlled flow.
+- **Inlet Region**: With a diameter of 1.65 mm and a height of 2.0 mm, the inlet introduces the buffer and sample streams. A 6:1 buffer-to-sample flow rate ratio is maintained to ensure stable, laminar flow, essential for precise particle separation. The aspect ratio of 1.21:1 supports both structural integrity and controlled flow.
 
 - **Pinched Region**: The pinched region, measuring 1.1 mm in width, 2.0 mm in height, and 8.8 mm in length, compresses the flow, guiding particles into distinct streamlines based on size. Larger particles (0.55 mm in diameter) stay near the centerline, while smaller particles (0.165 mm) are displaced toward the edges. The aspect ratio of 1.82:1 prevents clogging, while the length-to-width ratio of 8:1 ensures adequate particle focusing.
 
 - **Expansion Region**: After the pinched region, the channel expands to 11 mm in width, 2.0 mm in height, and 35 mm in length. This expansion allows particles to diverge spatially based on their positions in the focused streamlines. Larger particles remain near the center, while smaller particles move outward. The expansion width-to-pinch width ratio of 10:1 provides ample space for effective separation.
 
-- **Outlet Region**: Outlets are matched to the inlet diameter (1.65 mm) and include a gentle funnel shape with angles between 5° and 10°, which helps maintain smooth flow without re-mixing the separated particles.
+- **Outlet Region**: Outlets are matched to the inlet diameter (1.65 mm) and include a gentle funnel shape with angles at 18°, which helps maintain smooth flow without re-mixing the separated particles.
 
 The separation mechanism in the pinched flow region follows this equation:
 
