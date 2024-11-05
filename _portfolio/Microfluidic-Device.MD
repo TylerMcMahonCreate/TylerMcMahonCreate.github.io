@@ -1,59 +1,85 @@
----
-title: "Microfluidic Device"
-excerpt: "Pinched Flow Fractionation - Particle Separator"
+----
+title: "uFluidic Device"
+excerpt: "Microfluidic Device for Homogeneous Mixing and Particle Sorting"
 header:
-  teaser: /assets/img/SyringePumpCoverPhoto.png
+  teaser: /assets/img/deviceandmold.jpg
 gallery:
-  - image_path: assets/img/SyringePumpRender.png
-   
+  - image_path: assets/img/deviceandmold.jpg
 ---
 
-# Purpose
+# Introduction
 
-A syringe pump is a specialized precision device designed to deliver fluids in a controlled manner. Some controllable factors include dispensing an exact specified volume of liquid or dispensing liquid at a set flow rate. These pumps are widely used in medical and laboratory settings due to this ability to administer exact volumes of liquid at specific rates. This is crucial in applications such as drug delivery and chemical reactions.
+Microfluidic (uFluidic) devices, often called "labs-on-a-chip," are essential in various fields due to their ability to precisely manipulate small fluid volumes at the micrometer scale. They are widely used in applications like diagnostics, drug delivery, and chemical analysis, where rapid and cost-effective experiments are crucial.
 
-# Features
+One key application in microfluidics is achieving **homogeneous mixing**, essential in biochemical assays, nanoparticle synthesis, and drug development. However, **mixing is challenging in microfluidics** due to the **laminar flow regime** caused by low Reynolds numbers, which limits fluid mixing by convection. As a result, passive or active methods are often required to enhance mixing and achieve a uniform fluid distribution.
 
-* On/Pause Switch: Pushing this button stops the progress of the syringe pump. Allows for immediate user control.
-* Forward/Backward Jog Buttons: The jog buttons rotate the stepper motor and move the syringe back anf forth. Enables a manual mode, allowing more control over the motion of the pump. 
-* The Potentiometer: Adjusts the flow rate. Enables quick changing of the pump's speed without having to edit the Arduino code.
-* LED: Programmed to be green when the pump is moving, yellow when paused, and red when it is out of fluid.
+# Device Rationale
+
+This project utilizes **Pinched Flow Fractionation (PFF)** to separate particles based on size by leveraging laminar flow and specific channel geometries. The device comprises distinct regions designed to guide particle behavior and enable effective separation:
+
+- **Inlet Region**: With a diameter of 1.65 mm and a height of 2.0 mm, the inlet introduces the buffer and sample streams. A 2:1 buffer-to-sample flow rate ratio is maintained to ensure stable, laminar flow, essential for precise particle separation. The aspect ratio of 1.21:1 supports both structural integrity and controlled flow.
+
+- **Pinched Region**: The pinched region, measuring 1.1 mm in width, 2.0 mm in height, and 8.8 mm in length, compresses the flow, guiding particles into distinct streamlines based on size. Larger particles (0.55 mm in diameter) stay near the centerline, while smaller particles (0.165 mm) are displaced toward the edges. The aspect ratio of 1.82:1 prevents clogging, while the length-to-width ratio of 8:1 ensures adequate particle focusing.
+
+- **Expansion Region**: After the pinched region, the channel expands to 11 mm in width, 2.0 mm in height, and 35 mm in length. This expansion allows particles to diverge spatially based on their positions in the focused streamlines. Larger particles remain near the center, while smaller particles move outward. The expansion width-to-pinch width ratio of 10:1 provides ample space for effective separation.
+
+- **Outlet Region**: Outlets are matched to the inlet diameter (1.65 mm) and include a gentle funnel shape with angles between 5° and 10°, which helps maintain smooth flow without re-mixing the separated particles.
+
+The separation mechanism in the pinched flow region follows this equation:
+\[
+Y = (w_p - \frac{D}{2}) \left(\frac{w_0}{w_p}\right)
+\]
+Where:
+   - \( Y \): lateral position for each particle,
+   - \( w_p \): width of the pinched region (1.1 mm),
+   - \( D \): diameter of the particles (0.165 mm or 0.55 mm),
+   - \( w_0 \): width of the expansion region (11 mm).
+
+This equation shows how particle size influences lateral positioning, with larger particles staying closer to the center and smaller particles diverging outward.
+
+# Flow Rates and Reynolds Number Selection
+
+To achieve laminar flow and stable particle separation, flow rates were calculated based on Reynolds numbers of 10, 25, 50, and 100. Here’s a summary of the flow rates for a channel height of 2.0 mm:
+
+| **Reynolds Number** | **Total Flow Rate (µL/s)** | **Buffer Flow Rate (µL/s)** | **Sample Flow Rate (µL/s)** |
+|---------------------|----------------------------|-----------------------------|-----------------------------|
+| Re = 10             | 20                         | 13.33                       | 6.67                        |
+| Re = 25             | 50                         | 33.33                       | 16.67                       |
+| Re = 50             | 100                        | 66.67                       | 33.33                       |
+| Re = 100            | 200                        | 133.33                      | 66.67                       |
+
+Maintaining a 2:1 buffer-to-sample flow ratio is essential for stable particle focusing within the pinched region, allowing precise, size-based separation.
+
+# Assembly Instructions
+
+To create the final device from the 3D-printed mold, follow these steps (adapted from Lab on a Chip protocols):
+
+1. **Print and Cure Mold**:
+   - Design the mold to meet the microfluidic device specifications and print it using an SLA or DLP printer, like the Form 3+/4 in the Digital Fabrication Lab.
+   - Wash the mold in isopropyl alcohol (IPA) for 10 minutes to remove uncured resin, air-dry for 30 minutes, and then perform a brief 60-second surface cure.
+
+2. **Parylene Coating**:
+   - Apply a parylene coating to prevent PDMS curing inhibition and ensure easy release of PDMS from the mold.
+
+3. **Cast PDMS**:
+   - Mix SYLGARD™ 184 silicone elastomer at a 10:1 ratio (base to curing agent), degas the mixture to remove air bubbles, and pour it into the mold.
+   - Cure the PDMS at room temperature (23°C) for 24 hours or at 65°C for 4 hours. Avoid curing above 100°C to prevent mold cracking.
+
+4. **Plasma Bond Glass Slide**:
+   - After curing, demold the PDMS and inspect it for imperfections.
+   - Treat both the PDMS and a glass slide with a plasma cleaner, then align and bond them to create a sealed, leak-proof microfluidic device.
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4dc2a679a11fc4179?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
-# Off-the-shelf Parts
+# Multimedia
 
-| Off-the-shelf Parts                                                   | Quantity |
-|-----------------------------------------------------------------------|----------|
-| 250 mm lead screw with 2 mm pitch and 2 mm lead	                      | 1        |
-| 1/4” x 8mm Flexible Coupling	                                        | 1        |
-| 200 mm linear rod with 8 mm diameter                                  | 2        |
-| LM8UU Linear bearing for 8 mm diameter rod                            | 2        |
-| 2040 Aluminum Extrusion 1’ Length	                                    | 1        |
-| Nema 17 Stepper Motor	                                                | 1        |
-| MEAN WELL RQ-65D AC-DC Power Supply Quad Output 5V 12V 24V 12V 4 Amp	| 1        |
-| Arduino Uno                                                         	| 1        |
-| A4988 Stepper Driver                                                	| 1        |
-| Small Breadboard	                                                    | 1        |
-| Panel Mount Latching Push Buttons	                                    | 1        |
-| Panel Mount Momentary Push Buttons                                   	| 3        |
-| LCD Display	                                                          | 1        |
-| Limit Switch                                                         	| 1        |
-| RGB Common Cathode LED	                                              | 1        |
-| Potentiometer	                                                        | 1        |
+- **Mold and Casted Device Image**:
+  ![Mold and Device](assets/img/deviceandmold.jpg)
 
-# 3D Printed Parts
+- **Device in Action**:
+  [Embedded YouTube Video of Device Working](https://www.youtube.com/embed/your-video-id)  <!-- replace 'your-video-id' with the actual YouTube video ID -->
 
-| 3D Printed Parts       | Quantity |
-|------------------------|----------|
-| Carriage	             | 1        |
-| Enclosure Top & Bottom | 1        |
-| End Support            | 2        |
-| Motor Mounting Plate   | 1        |
+---
 
-# Arduino Code
-
-The Arduino Code used to program the Syringe Pump - [here](https://github.com/TylerMcMahonCreate/TylerMcMahonCreate.github.io/blob/main/assets/syringe-code)
-
-{% include gallery caption="CAD Model Render" %}
+{% include gallery caption="uFluidic Device and Mold" %}
