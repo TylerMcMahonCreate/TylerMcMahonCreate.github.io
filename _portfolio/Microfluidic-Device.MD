@@ -27,7 +27,7 @@ This project utilizes **Pinched Flow Fractionation (PFF)** to separate particles
 
 The separation mechanism in the pinched flow region follows this equation:
 \[
-Y = (w_p - \frac{D}{2}) \left(\frac{w_0}{w_p}\right)
+Y = (w_p - D/2) * (w_0 / w_p)
 \]
 Where:
    - \( Y \): lateral position for each particle,
@@ -76,9 +76,6 @@ To create the final device from the 3D-printed mold, follow these steps (adapted
 
 - **Mold and Casted Device Image**:
   ![Mold and Device](assets/img/deviceandmold.jpg)
-
-- **Device in Action**:
-  [Embedded YouTube Video of Device Working](https://www.youtube.com/embed/your-video-id)  <!-- replace 'your-video-id' with the actual YouTube video ID -->
 
 ---
 
