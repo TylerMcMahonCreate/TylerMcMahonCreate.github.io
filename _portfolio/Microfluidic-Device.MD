@@ -10,9 +10,9 @@ math: true
 
 # Introduction
 
-Microfluidic (uFluidic) devices, often called "labs-on-a-chip," are essential in various fields due to their ability to precisely manipulate small fluid volumes at the micrometer scale. They are widely used in applications like diagnostics, drug delivery, and chemical analysis, where rapid and cost-effective experiments are crucial.
+Microfluidic (uFluidic) devices are essential in various fields due to their ability to precisely manipulate small volumes of fluids. One of the applications of these devices is in **pinched flow fractionation (PFF)**, a method used to separate particles based on their size without the need for complex filters or membranes. In PFF, particles in a fluid stream are guided through a pinched region where larger particles are displaced differently than smaller ones, allowing for effective size-based sorting in the expansion region that follows. This technique is valuable in biomedical applications, such as separating cells or particles in diagnostics and therapeutic processes, where precise and efficient sorting is critical.
 
-One key application in microfluidics is achieving **homogeneous mixing**, essential in biochemical assays, nanoparticle synthesis, and drug development. However, **mixing is challenging in microfluidics** due to the **laminar flow regime** caused by low Reynolds numbers, which limits fluid mixing by convection. As a result, passive or active methods are often required to enhance mixing and achieve a uniform fluid distribution.
+However, achieving effective particle separation within such a small device presents challenges. The design of the pinched region and expansion geometry is critical to ensure that particles of different sizes are reliably separated by lateral displacement. The laminar flow characteristic of microfluidics limits mixing and turbulence, making it essential to rely on carefully engineered flow paths and geometries to achieve the desired fractionation.
 
 # Device Rationale
 
