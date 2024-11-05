@@ -73,9 +73,8 @@ To create the final device from the 3D-printed mold, follow these steps (adapted
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4dc2a679a11fc4179?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
-# Multimedia
+# Mold and Casted Device
 
-- **Mold and Casted Device Image**:
   ![Mold and Device](assets/img/deviceandmold.jpg)
 
 ---
