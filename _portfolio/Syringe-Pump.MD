@@ -1,28 +1,31 @@
----
+1---
 title: "Syringe Pump"
 excerpt: "Automated Syringe Pump with Variable Flow Control"
 header:
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
   - image_path: assets/img/SyringePumpRender.png
+  - image_path: assets/img/SyringePumpCoverPhoto.png
    
 ---
+---
+## CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# Purpose
+<br>
+
+## Purpose
 
 A syringe pump is a specialized precision device designed to deliver fluids in a controlled manner. Some controllable factors include dispensing an exact specified volume of liquid or dispensing liquid at a set flow rate. These pumps are widely used in medical and laboratory settings due to this ability to administer exact volumes of liquid at specific rates. This is crucial in applications such as drug delivery and chemical reactions.
 
-# Features
+## Features
 
 * On/Pause Switch: Pushing this button stops the progress of the syringe pump. Allows for immediate user control.
 * Forward/Backward Jog Buttons: The jog buttons rotate the stepper motor and move the syringe back anf forth. Enables a manual mode, allowing more control over the motion of the pump. 
 * The Potentiometer: Adjusts the flow rate. Enables quick changing of the pump's speed without having to edit the Arduino code.
 * LED: Programmed to be green when the pump is moving, yellow when paused, and red when it is out of fluid.
 
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-# Off-the-shelf Parts
+## Off-the-shelf Parts
 
 | Off-the-shelf Parts                                                   | Quantity |
 |-----------------------------------------------------------------------|----------|
@@ -43,7 +46,7 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 | RGB Common Cathode LED	                                              | 1        |
 | Potentiometer	                                                        | 1        |
 
-# 3D Printed Parts
+## 3D Printed Parts
 
 | 3D Printed Parts       | Quantity |
 |------------------------|----------|
@@ -52,7 +55,7 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 | End Support            | 2        |
 | Motor Mounting Plate   | 1        |
 
-# Arduino Code
+## Arduino Code
 
 The Arduino Code used to program the Syringe Pump - [here](https://github.com/TylerMcMahonCreate/TylerMcMahonCreate.github.io/blob/main/assets/syringe-code)
 
