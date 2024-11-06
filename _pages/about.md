@@ -1,10 +1,10 @@
 ---
 
-title: "About Tyler McMahon"
+title: "About Me"
 
 ---
-
-Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience is in instituional HVAC systems, with a focus on mechanical design. He is seeking a job in product design, full-building MEP, or defense.
+---
+Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience is in instituional HVAC systems, with a focus on mechanical design. He is seeking a job in product design, mechanical infrastucture, or construction.
 
 ## Education
 
@@ -36,10 +36,6 @@ Tyler has opted to diversify his educational experience through the addition of 
   * Communicated with over 40 parents twice a week, ensuring all health forms, luggage, and key questions were handled
   * Awarded Head Counselor of the Session out of 35 coworkers while in charge of the Leaders in Training program
 
-#### TM Tutoring
-* Private Tutor (August 2019–May 2021)
-  * Independently tutored 80+ hours outside of school in various courses including biology, chemistry, and mathematics 
-  * Developed individualized teaching methods based on each student’s learning strengths by repurposing in-class handouts 
 
 ## Technical Skills
 
@@ -50,3 +46,5 @@ Tyler has opted to diversify his educational experience through the addition of 
 * Digital Fabrication Tools
   * Fused Filament Fabrication (FFF)
   * Laser Cutting
+  * Resin Printing
+  * pSLS Printing
