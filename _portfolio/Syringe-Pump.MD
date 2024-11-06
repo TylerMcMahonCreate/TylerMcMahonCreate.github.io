@@ -9,7 +9,7 @@ gallery:
    
 ---
 ---
-![Syringe Pump Cover Photo](assets/img/SyringePumpCoverPhoto.png)
+![Syringe Pump Cover Photo](/assets/img/SyringePumpCoverPhoto.png)
 
 <br>
 
