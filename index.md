@@ -13,7 +13,11 @@ feature_row:
   - image_path: assets/img/SyringePumpCoverPhoto.png
     alt: "Syringe Pump"
     title: "Syringe Pump"
-    excerpt: "Automated Syringe Pump with Variable Flow Control."
+    excerpt: "Automated Syringe Pump with Variable Flow Control"
+  - image_path: assets/img/deviceandmold.png
+    alt: "μFluidic Device"
+    title: "μFluidic Device"
+    excerpt: "Particle Separator using Pinched Flow Fractionation"
 ---
 
 {% include feature_row %}
