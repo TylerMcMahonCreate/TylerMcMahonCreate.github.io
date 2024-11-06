@@ -9,14 +9,19 @@ math: true
 ---
 
 
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4dc2a679a11fc4179?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+
 
 # Introduction
 
 Microfluidic (uFluidic) devices are essential in various fields due to their ability to precisely manipulate small volumes of fluids. One of the applications of these devices is in **pinched flow fractionation (PFF)**, a method used to separate particles based on their size without the need for complex filters or membranes. In PFF, particles in a fluid stream are guided through a pinched region where larger particles are displaced differently than smaller ones, allowing for effective size-based sorting in the expansion region that follows. This technique is valuable in biomedical applications, such as separating cells or particles in diagnostics and therapeutic processes, where precise and efficient sorting is critical.
 
 However, achieving effective particle separation within such a small device presents challenges. The design of the pinched region and expansion geometry is critical to ensure that particles of different sizes are reliably separated by lateral displacement. The laminar flow characteristic of microfluidics limits mixing and turbulence, making it essential to rely on carefully engineered flow paths and geometries to achieve the desired fractionation.
+
+
 
 # Device Rationale
 
@@ -42,6 +47,8 @@ Where:
 
 This equation shows how particle size influences lateral positioning, with larger particles staying closer to the center and smaller particles diverging outward.
 
+
+
 # Flow Rate Selection
 
 To achieve laminar flow and stable particle separation, flow rates were calculated based on the volume of the device and a ~20 second duration for a particle to flow from beginning to end.
@@ -52,6 +59,8 @@ To achieve laminar flow and stable particle separation, flow rates were calculat
 
 
 Maintaining a 6:1 buffer-to-sample flow ratio is essential for stable particle focusing within the pinched region, allowing precise, size-based separation.
+
+
 
 # Assembly Instructions
 
@@ -75,4 +84,4 @@ To create the final device from the 3D-printed mold, follow these steps:
 
 # Mold and Casted Device
 
-{% include gallery caption="uFluidic Device and Mold" %}
+{% include gallery}
