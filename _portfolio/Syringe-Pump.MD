@@ -4,20 +4,21 @@ excerpt: "Automated Syringe Pump with Variable Flow Control"
 header:
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
-  - image_path: assets/img/SyringePumpCoverPhoto.png
   - image_path: assets/img/SyringePumpRender.png
 
    
 ---
 ---
-## CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+image_path: assets/img/SyringePumpCoverPhoto.png
 
 <br>
 
 ## Purpose
 
 A syringe pump is a specialized precision device designed to deliver fluids in a controlled manner. Some controllable factors include dispensing an exact specified volume of liquid or dispensing liquid at a set flow rate. These pumps are widely used in medical and laboratory settings due to this ability to administer exact volumes of liquid at specific rates. This is crucial in applications such as drug delivery and chemical reactions.
+
+## CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Features
 
@@ -60,5 +61,5 @@ A syringe pump is a specialized precision device designed to deliver fluids in a
 
 The Arduino Code used to program the Syringe Pump - [here](https://github.com/TylerMcMahonCreate/TylerMcMahonCreate.github.io/blob/main/assets/syringe-code)
 
-{% include gallery caption="Syring Pump Prototype" caption="CAD Model Render" %}
+{% include gallery caption="CAD Model Render" %}
 
