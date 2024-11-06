@@ -84,4 +84,4 @@ To create the final device from the 3D-printed mold, follow these steps:
 
 # Mold and Casted Device
 
-{% include gallery}
+{% include gallery caption="" %}
