@@ -14,7 +14,7 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Automated Syringe Pump with Variable Flow Control"
-  - image_path: assets/img/deviceandmold.png
+  - image_path: assets/img/deviceandmold.jpg
     alt: "μFluidic Device"
     title: "μFluidic Device"
     excerpt: "Particle Separator using Pinched Flow Fractionation"
