@@ -18,6 +18,11 @@ feature_row:
     alt: "μFluidic Device"
     title: "μFluidic Device"
     excerpt: "Particle Separator using Pinched Flow Fractionation"
+  - image_path: assets/img/Pliers.png
+    alt: "Multi-Material Pliers"
+    title: "Multi-Material Pliers"
+    excerpt: "No-Assembly Pliers using PLS and TPU 95a"
+
 ---
 
 {% include feature_row %}
