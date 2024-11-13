@@ -2,9 +2,9 @@
 title: "Multi-Material Pliers"
 excerpt: "Multi-Material Pliers"
 header:
-  teaser: /assets/img/deviceandmold.jpg
+  teaser: assets/img/Pliers.png
 gallery:
-  - image_path: assets/img/deviceandmold.jpg
+  - image_path: assets/img/Pliers.png
 ---
 ---
 
@@ -41,7 +41,7 @@ The handles and claws were modeled out of PLS. This part allowed for the most cr
 
 ## Results
 
-{% include gallery caption="" %}
+{% include gallery caption="Final Pair of Pliers" %}
 
 <br>
 
