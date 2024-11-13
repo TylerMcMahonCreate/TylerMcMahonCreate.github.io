@@ -16,7 +16,7 @@ This project is about designing and 3D printing needle nose pliers that can pick
 
 ## CAD Model
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f30ad019b1cca426?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a42b7161957b2ffb5d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <br>
 
@@ -43,13 +43,11 @@ The handles and claws were modeled out of PLS. This part allowed for the most cr
 | Nozzle Diameter | 0.6 mm                                |
 | Matertial       | PLS (handles/grips), TPU 95a (spring) |
 
-<br>
 
 ## Results
 
 {% include gallery caption="Final Pair of Pliers" %}
 
-<br>
 
 ## Pliers In Action!
 
