@@ -1,6 +1,6 @@
 ---
 title: "Multi-Material Pliers"
-excerpt: "Multi-Material Pliers"
+excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
 header:
   teaser: assets/img/Pliers.png
 gallery:
