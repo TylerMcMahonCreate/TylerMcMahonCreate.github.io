@@ -21,7 +21,7 @@ feature_row:
   - image_path: assets/img/Pliers.png
     alt: "Multi-Material Pliers"
     title: "Multi-Material Pliers"
-    excerpt: "No-Assembly Pliers using PLS and TPU 95a"
+    excerpt: "Zero-Assembly Pliers using PLS and TPU 95a"
 
 ---
 
