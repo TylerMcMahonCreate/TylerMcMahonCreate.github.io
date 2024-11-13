@@ -29,8 +29,22 @@ The handles and claws were modeled out of PLS. This part allowed for the most cr
 
 <br>
 
-## Printer Settings
+## Printer/Sclicer Settings
 
+| Setting         | Result                                |
+|-----------------|---------------------------------------|
+| Infill Density  | 20% (handles/grips), 8.5% (spring)    |
+| Nozzle Diameter | 0.6 mm                                |
+| Matertial       | PLS (handles/grips), TPU 95a (spring) |
 
+<br>
+
+## Results
 
 {% include gallery caption="" %}
+
+<br>
+
+## Pliers In Action!
+
+![Pliers in Action](/assets/img/PliersGIF.gif)
