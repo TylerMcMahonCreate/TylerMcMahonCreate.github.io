@@ -2,9 +2,10 @@
 title: "Bike Phone Mount"
 excerpt: "Top-Down Modeling - Phone Mount for Bikes"
 header:
-  teaser: assets/img/Pliers.png
+  teaser: assets/img/MountPrototypes.jpg
 gallery:
-  - image_path: assets/img/Pliers.png
+  - image_path: assets/img/MountPrototypes.jpg
+  - image_path: assets/img/BikePhoneMount.jpg
 ---
 ---
 
@@ -40,10 +41,10 @@ The assembly was quite simple due to how each component of the mount was designe
 
 ## Results
 
-{% include gallery caption="Final Pair of Pliers" %}
+{% include gallery caption="Prototyping Process & Final Phone Mount" %}
 
 
 ## Detent Mechanism in Action!
 
-![Pliers in Action](/assets/img/PliersGIF.gif)
+![Rotation in Action](/assets/img/DetentGIF.gif)
 
