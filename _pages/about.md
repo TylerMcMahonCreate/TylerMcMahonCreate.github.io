@@ -41,6 +41,7 @@ Tyler has opted to diversify his educational experience through the addition of 
 
 * SolidWorks
 * Autodesk Fusion360
+  * Top-down Modeling
 * MATLAB
 * Microsoft Office
 * Digital Fabrication Tools
