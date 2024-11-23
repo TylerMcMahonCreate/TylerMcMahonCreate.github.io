@@ -21,11 +21,11 @@ Top-down modeling is a design approach where the overall structure or assembly i
 
 <br>
 
-## Design Description
+## Design
 
 This comprehensive top-down modeling project required intentional prototyping from beginning to end in areas like mechanism design, assembly process, and material choice
 
-###### Design Rationale
+###### Description & Rationale
 The first design criteria was ensuring that the device could securely grip 23-25 mm handlebars. To achieve this, a 25 mm circular piece was modeled with a 1 mm offset in between pieces. Rectangular pieces with 6 mm holes jutted out to the side, allowing space for screws that tighten the mount's grip on the handlebars. The bottom piece was manufactured out of TPU 95A to prevent cracking when the screws are tightened. 
 <br>
 
@@ -39,7 +39,6 @@ The last design criteria was modeling a phone grip that allowed access to all ch
 
 ###### Assembly
 The assembly was quite simple due to how each component of the mount was designed. As previously mentioned, the piece that grips that handle bar was attached with a screw and nut on each side. The bottom piece was manufactured out of TPU to allow for strong tightening of the screws without cracking on the handlebar. Additionally one 6mm hole was modeled directly through the center of the phone grip, detent mechanism, and extension arm. Slightly larger holes of 10mm and 13m were modeled on each end to allow space for the bolt head and nut.
-
 <br>
 
 ## Results
