@@ -1,5 +1,5 @@
 ---
-title: "uFluidic Device - Pinched Flow"
+title: "uFluidic Device"
 excerpt: "Pinched Flow Fractionation - Particle Separator"
 header:
   teaser: /assets/img/deviceandmold.jpg
