@@ -1,6 +1,6 @@
 ---
 title: "Bike Phone Mount"
-excerpt: "Top-Down Modeling - Phone Mount for Bikes"
+excerpt: "Top-Down Modeling - Rotating Detent Mechaism Phone Mount for Bikes"
 header:
   teaser: assets/img/BikePhoneMount.jpg
 gallery:
