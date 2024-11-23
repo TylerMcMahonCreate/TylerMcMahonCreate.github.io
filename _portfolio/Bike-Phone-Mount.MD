@@ -10,7 +10,7 @@ gallery:
 
 ## Project Description
 
-Top-down modeling is a design approach where the overall structure or assembly is defined first, and individual components are designed within this framework. For this project, the top-down method was leveraged by importing handlebars and a CAD model of the phone as references. These elements drove the design process, ensuring the holder's components were modeled in place for an accurate fit. Using as-built joints, the parts were assembled directly in the CAD environment, maintaining alignment and functionality. This method allowed for a cohesive and streamlined design process, with each part tailored to the bike handlebars and phone dimensions.
+Top-down modeling is a design approach where the overall structure or assembly is defined first, and individual components are designed within this framework. For this project, the top-down method was leveraged by importing handlebars and a CAD model of the phone as references. These elements drove the design process, ensuring the holder's components were modeled in place for an accurate fit. Using as-built joints, the parts were assembled directly in the CAD environment. This helped maintain alignment and quickly ensure dimensional accuracy. The top-down method allowed for a cohesive and efficient design process, with each part tailored to the bike handlebars and phone dimensions.
 
 <br>
 
