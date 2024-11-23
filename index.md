@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/GitHubCoverPage2.jfif
+  overlay_image: /assets/img/GitHubCoverPage3.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
