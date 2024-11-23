@@ -2,7 +2,7 @@
 title: "Bike Phone Mount"
 excerpt: "Top-Down Modeling - Phone Mount for Bikes"
 header:
-  teaser: assets/img/MountPrototypes.jpg
+  teaser: assets/img/BikePhoneMount.jpg
 gallery:
   - image_path: assets/img/MountPrototypes.jpg
   - image_path: assets/img/BikePhoneMount.jpg
@@ -28,10 +28,13 @@ This comprehensive top-down modeling project required intentional prototyping fr
 ###### Design Rationale
 The first design criteria was ensuring that the device could securely grip 23-25 mm handlebars. To achieve this, a 25 mm circular piece was modeled with a 1 mm offset in between pieces. Rectangular pieces with 6 mm holes jutted out to the side, allowing space for screws that tighten the mount's grip on the handlebars. The bottom piece was manufactured out of TPU 95A to prevent cracking when the screws are tightened. 
 <br>
+
 From the top piece of the handlebar grip, an arm was extended upwards approximately 80 mm at a 70 degree angle. This segment was manufactured out of ABS due to its strength and moderate flexibility compared to PLA. This material selection was key for this piece as well as the second design criteria. The holder must be able to lock the phone in a vertical or horizontal orientation, which can be changed at any point during a ride. Additional degrees of freedom are optional, but I decided to include them in the design. 
 <br>
+
 The extended arm connects directly to the detent mechanism. This mechanism is a hollow circular piece with small arches cut out of the edge in a rotationally symmetric pattern. The back of the piece that grips the phone has an opposing circular piece that fits inside and has similar but smaller arches circling its outer edge. This conjunction of pieces is called a detent mechanism and allows the phone to lock in place at various locations when twisted due to a slight give in the material when force is applied. The length and radius of the arches were rapidly prototyped at varying dimensions until the perfect fit was achieved. 
 <br>
+
 The last design criteria was modeling a phone grip that allowed access to all charging ports and buttons while providing quick and easy phone insertion. I opted for an 'X' shape with small grips at each corner that securely hold the phone in place. This piece was manufactured out of TPU not only to allow some stretching to insert the phone but also for the detent mechanism to have some give when attempting to rotate.
 
 ###### Assembly
