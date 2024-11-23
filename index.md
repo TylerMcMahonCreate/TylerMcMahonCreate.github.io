@@ -24,7 +24,7 @@ feature_row:
     excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
   - image_path: assets/img/BikePhoneMount.jpg
     alt: "Bike Phone Mount"
-    title: "Adjustable Bike Phone Mount"
+    title: "Bike Phone Mount"
     excerpt: "Top-Down Modeling - Rotating Detent Mechaism Phone Mount for Bikes"
 
 ---
