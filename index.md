@@ -22,6 +22,10 @@ feature_row:
     alt: "Multi-Material Pliers"
     title: "Multi-Material Pliers"
     excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
+  - image_path: assets/img/BikePhoneMount.jpg
+    alt: "Adjustable Bike Phone Mount"
+    title: "Adjustable Bike Phone Mount"
+    excerpt: "Top-Down Modeling - Rotating Phone Mount for Bikes"
 
 ---
 
