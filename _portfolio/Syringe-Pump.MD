@@ -1,5 +1,5 @@
 ---
-title: "Automated Syringe Pump"
+title: "Syringe Pump"
 excerpt: "Automated Syringe Pump with Variable Flow Control"
 header:
   teaser: /assets/img/SyringePumpCoverPhoto.png
