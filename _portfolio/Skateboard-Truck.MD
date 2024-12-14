@@ -4,8 +4,8 @@ excerpt: "Truck for Electric Slateboard - Generative Design"
 header:
   teaser: assets/img/SkateboardTruckClean.jpg
 gallery:
-  - image_path: assets/img/SkateboardTruckClean.jpg
   - image_path: assets/img/SkateboardTruckAttached.jpg
+  - image_path: assets/img/SkateboardTruckClean.jpg
 ---
 ---
 
@@ -19,7 +19,7 @@ I created and analyzed designs for two materials. The Nylon 12 and ALSi10Mg desi
 
 <br>
 
-## CAD Models - ALSi10MgCAD (left) and Nylon 12 (right)
+## CAD Models - ALSi10Mg (top) & Nylon 12 (bottom)
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a40133ff9233616be3?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -65,7 +65,7 @@ Even with these challenges, generative design is very useful in industries like 
 {% include gallery caption="SLS Prototype Results" %}
 
 
-## Pliers In Action!
+## Truck In Action!
 
 ![Pliers in Action](/assets/img/SkateboardTruckClip.gif)
 
