@@ -2,9 +2,10 @@
 title: "Generative AI Skateboard Truck"
 excerpt: "Truck for Electric Slateboard - Generative Design"
 header:
-  teaser: assets/img/Pliers.png
+  teaser: assets/img/SkateboardTruckClean.jpg
 gallery:
-  - image_path: assets/img/Pliers.png
+  - image_path: assets/img/SkateboardTruckClean.jpg
+  - image_path: assets/img/SkateboardTruckAttached.jpg
 ---
 ---
 
@@ -20,7 +21,9 @@ I created and analyzed designs for two materials. The Nylon 12 and ALSi10Mg desi
 
 ## CAD Models - ALSi10MgCAD (left) and Nylon 12 (right)
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a42b7161957b2ffb5d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a40133ff9233616be3?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4b4b935981c3bc974?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <br>
 
@@ -59,10 +62,10 @@ Even with these challenges, generative design is very useful in industries like 
 
 ## Results
 
-{% include gallery caption="Final Pair of Pliers" %}
+{% include gallery caption="SLS Prototype Results" %}
 
 
 ## Pliers In Action!
 
-![Pliers in Action](/assets/img/PliersGIF.gif)
+![Pliers in Action](/assets/img/SkateboardTruckClip.gif)
 
