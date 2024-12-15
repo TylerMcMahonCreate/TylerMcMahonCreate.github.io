@@ -26,6 +26,10 @@ feature_row:
     alt: "Bike Phone Mount"
     title: "Bike Phone Mount"
     excerpt: "Top-Down Modeling - Rotating Detent Mechaism Phone Mount for Bikes"
+  - image_path: assets/img/SkateboardTruckClean.jpg
+    alt: "Gen AI Skateboard Truck"
+    title: "Gen AI Skateboard Truck"
+    excerpt: "Skateboard Truck Modeled with Generative Design"
 
 ---
 
