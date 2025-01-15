@@ -1,6 +1,7 @@
 ---
 title: "Generative AI Skateboard Truck"
 excerpt: "Truck for Electric Slateboard - Generative Design"
+weight: 1
 header:
   teaser: assets/img/SkateboardTruckClean.jpg
 gallery:
