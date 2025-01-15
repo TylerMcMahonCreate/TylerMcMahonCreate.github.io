@@ -9,10 +9,7 @@ header:
     - label: "My Projects"
       url: "/portfolio/"
 excerpt: "Tyler McMahon is a mechanical engineer with a passion for product design and institutional HVAC systems, with a focus on mechanical design."
----
 
-## Major Projects
-{% include feature_row %}
 - image_path: assets/img/SyringePumpCoverPhoto.png
   alt: "Syringe Pump"
   title: "Syringe Pump"
@@ -22,8 +19,7 @@ excerpt: "Tyler McMahon is a mechanical engineer with a passion for product desi
   title: "Gen AI Skateboard Truck"
   excerpt: "Skateboard Truck Modeled with Generative Design"
 
-#### Minor Projects
-{% include feature_row %}
+
 - image_path: assets/img/deviceandmold.jpg
   alt: "µFluidic Device"
   title: "µFluidic Device"
@@ -32,10 +28,10 @@ excerpt: "Tyler McMahon is a mechanical engineer with a passion for product desi
   alt: "Multi-Material Pliers"
   title: "Multi-Material Pliers"
   excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
-  - image_path: assets/img/BikePhoneMount.jpg
-    alt: "Bike Phone Mount"
-    title: "Bike Phone Mount"
-    excerpt: "Top-Down Modeling - Rotating Detent Mechaism Phone Mount for Bikes"
+- image_path: assets/img/BikePhoneMount.jpg
+  alt: "Bike Phone Mount"
+  title: "Bike Phone Mount"
+  excerpt: "Top-Down Modeling - Rotating Detent Mechaism Phone Mount for Bikes"
 
 
 ---
