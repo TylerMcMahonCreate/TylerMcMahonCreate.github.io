@@ -10,10 +10,16 @@ header:
       url: "/portfolio/"
 excerpt: "Tyler McMahon is a mechanical engineer with a passion for product design and advanced prototyping techniques. His professional experience centers on institutional HVAC systems, with a focus on mechanical design "
 feature_row:
+## Major Projects
   - image_path: assets/img/SyringePumpCoverPhoto.png
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Automated Syringe Pump with Variable Flow Control"
+  - image_path: assets/img/SkateboardTruckClean.jpg
+    alt: "Gen AI Skateboard Truck"
+    title: "Gen AI Skateboard Truck"
+    excerpt: "Skateboard Truck Modeled with Generative Design"
+#### Minor Projects
   - image_path: assets/img/deviceandmold.jpg
     alt: "μFluidic Device"
     title: "μFluidic Device"
@@ -26,10 +32,7 @@ feature_row:
     alt: "Bike Phone Mount"
     title: "Bike Phone Mount"
     excerpt: "Top-Down Modeling - Rotating Detent Mechaism Phone Mount for Bikes"
-  - image_path: assets/img/SkateboardTruckClean.jpg
-    alt: "Gen AI Skateboard Truck"
-    title: "Gen AI Skateboard Truck"
-    excerpt: "Skateboard Truck Modeled with Generative Design"
+
 
 ---
 
