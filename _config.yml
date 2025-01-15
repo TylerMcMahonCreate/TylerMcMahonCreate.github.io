@@ -281,4 +281,6 @@ compress_html:
   ignore:
     envs: development
 
-Added sorting by weight to portfolio collection
+git add _config.yml
+git commit -m "Added sorting by weight for portfolio collection"
+git push
