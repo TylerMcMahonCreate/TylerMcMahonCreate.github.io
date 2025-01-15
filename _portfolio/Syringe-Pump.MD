@@ -1,6 +1,7 @@
 ---
 title: "Syringe Pump"
 excerpt: "Automated Syringe Pump with Variable Flow Control"
+weight: 1
 header:
   teaser: /assets/img/SyringePumpCoverPhoto.png
 gallery:
