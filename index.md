@@ -10,17 +10,26 @@ header:
       url: "/portfolio/"
 excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/SyringePumpCoverPhoto.png
+    alt: "Syringe Pump"
+    title: "Syringe Pump"
+    excerpt: "Automated Syringe Pump with Variable Flow Control"
+  - image_path: assets/img/SkateboardTruckClean.jpg
+    alt: "Gen AI Skateboard Truck"
+    title: "Gen AI Skateboard Truck"
+    excerpt: "Skateboard Truck Modeled with Generative Design"
+  - image_path: assets/img/deviceandmold.jpg
+    alt: "µFluidic Device"
+    title: "µFluidic Device"
+    excerpt: "Particle Separator using Pinched Flow Fractionation"
+  - image_path: assets/img/Pliers.png
+    alt: "Multi-Material Pliers"
+    title: "Multi-Material Pliers"
+    excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
+  - image_path: assets/img/BikePhoneMount.jpg
+    alt: "Bike Phone Mount"
+    title: "Bike Phone Mount"
+    excerpt: "Top-Down Modeling - Rotating Detent Mechanism Phone Mount for Bikes"
 ---
 
 {% include feature_row %}
