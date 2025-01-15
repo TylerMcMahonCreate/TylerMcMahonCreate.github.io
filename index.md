@@ -12,26 +12,26 @@ excerpt: "Tyler McMahon is a mechanical engineer with a passion for product desi
 ---
 
 ## Major Projects
-feature_row:
-  - image_path: assets/img/SyringePumpCoverPhoto.png
-    alt: "Syringe Pump"
-    title: "Syringe Pump"
-    excerpt: "Automated Syringe Pump with Variable Flow Control"
-  - image_path: assets/img/SkateboardTruckClean.jpg
-    alt: "Gen AI Skateboard Truck"
-    title: "Gen AI Skateboard Truck"
-    excerpt: "Skateboard Truck Modeled with Generative Design"
+{% include feature_row %}
+- image_path: assets/img/SyringePumpCoverPhoto.png
+  alt: "Syringe Pump"
+  title: "Syringe Pump"
+  excerpt: "Automated Syringe Pump with Variable Flow Control"
+- image_path: assets/img/SkateboardTruckClean.jpg
+  alt: "Gen AI Skateboard Truck"
+  title: "Gen AI Skateboard Truck"
+  excerpt: "Skateboard Truck Modeled with Generative Design"
 
-## Minor Projects
-feature_row:
-  - image_path: assets/img/deviceandmold.jpg
-    alt: "µFluidic Device"
-    title: "µFluidic Device"
-    excerpt: "Particle Separator using Pinched Flow Fractionation"
-  - image_path: assets/img/Pliers.png
-    alt: "Multi-Material Pliers"
-    title: "Multi-Material Pliers"
-    excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
+#### Minor Projects
+{% include feature_row %}
+- image_path: assets/img/deviceandmold.jpg
+  alt: "µFluidic Device"
+  title: "µFluidic Device"
+  excerpt: "Particle Separator using Pinched Flow Fractionation"
+- image_path: assets/img/Pliers.png
+  alt: "Multi-Material Pliers"
+  title: "Multi-Material Pliers"
+  excerpt: "Zero-Assembly Pliers Using PLS and TPU 95a"
   - image_path: assets/img/BikePhoneMount.jpg
     alt: "Bike Phone Mount"
     title: "Bike Phone Mount"
