@@ -180,7 +180,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-    sort_by: weight
 
 
 # Defaults
@@ -280,7 +279,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-git add _config.yml
-git commit -m "Added sorting by weight for portfolio collection"
-git push
