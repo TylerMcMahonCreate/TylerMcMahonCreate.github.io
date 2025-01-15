@@ -1,16 +1,16 @@
 ---
-title: "Home"
+title: "Example Web Page"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/GitHubCoverPage3.png
+  overlay_image: /assets/img/Home-Banner-Image.jpeg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Tyler McMahon is a mechanical engineer with a passion for product design and institutional HVAC systems, with a focus on mechanical design."
-projects:
-  - image_path: assets/img/SyringePumpCoverPhoto.png
+excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+feature_row:
+ - image_path: assets/img/SyringePumpCoverPhoto.png
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Automated Syringe Pump with Variable Flow Control"
@@ -31,3 +31,8 @@ projects:
     title: "Bike Phone Mount"
     excerpt: "Top-Down Modeling - Rotating Detent Mechanism Phone Mount for Bikes"
 ---
+
+{% include feature_row %}
+
+
+ 
