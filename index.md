@@ -18,8 +18,6 @@ feature_row:
     alt: "Gen AI Skateboard Truck"
     title: "Gen AI Skateboard Truck"
     excerpt: "Skateboard Truck Modeled with Generative Design"
-
-minor_projects:
   - image_path: assets/img/deviceandmold.jpg
     alt: "µFluidic Device"
     title: "µFluidic Device"
