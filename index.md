@@ -36,5 +36,3 @@ excerpt: "Tyler McMahon is a mechanical engineer with a passion for product desi
 
 ---
 
-{% include feature_row %}
-
